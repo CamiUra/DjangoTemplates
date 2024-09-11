@@ -1,8 +1,10 @@
 {%extends 'master/master.html'%}
 
+{% load static %}
+
 {% block content %}
 <div>
-    <img src="/hard af.png.png" alt="none" width="1536">
+    <img src="{% static 'img/hard af.png.png' %}" alt="Not Found" width="1536">
     <h1>Wena</h1>
 </div>
 {%endblock%}
